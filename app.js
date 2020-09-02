@@ -11,6 +11,7 @@ var headerElement2 = document.getElementById("header2");
 headerElement2.addEventListener("mouseover", function() {
     headerElement2.style.fontFamily = "Impact";
     headerElement2.style.color = "red";
+    document.getElementById("header2").innerHTML = "WOW  it's  RED!"
 });
 
 // var headerElement3 = document.getElementById("header3");
@@ -31,6 +32,6 @@ headerElement2.addEventListener("mouseover", function() {
 var bodyElement = document.getElementById("body");
 bodyElement.addEventListener('keypress', function(eventDetails) {        // "keydown"/"keypress" a key on keyboard has been pressed
     if(eventDetails.key == " ") {
-        bodyElement.style.backgroundColor = "grey";
+        bodyElement.style.textAlign = "center";
     }
 });
